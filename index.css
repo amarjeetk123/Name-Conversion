@@ -1,0 +1,79 @@
+body{
+  width: 100%;
+  background-color: red;
+  
+}
+.naming_conversion {
+width: 90%;
+margin: 50px auto 0px;
+ 
+  background: tomato;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.naming_conversion .cases_div {
+  border-radius: 16px;
+  padding: 0.7em;
+
+}
+
+.naming_conversion #text {
+ margin-top: 20px;
+  outline: 0;
+  border-radius: 16px;
+  box-shadow: none;
+  border: navajowhite;
+  padding: 10px 20px;
+  width: 35%;
+  font-size: 21px;
+}
+
+.cases_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.case_div {
+/* display: flex; */
+
+
+  background-color: cadetblue;
+  border-radius: 12px;
+  margin: 0.5em 0em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.case_div h1 {
+
+  font-size: 1em;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0em;
+  margin: 0em;
+}
+ p {
+ /* width: 40%; */
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0em;
+  margin: 0em;
+  color: black;
+  
+}
+
+#convert-btn {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 12px;
+  padding: 0.3em 1.4em;
+  cursor: pointer;
+  margin-top: 20px;
+}
